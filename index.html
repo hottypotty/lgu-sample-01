@@ -12,27 +12,43 @@
     <!-- HEADER -->
 
     <div class="header">
-        <div class="=header-logo">
+        <div class="header-logo">
             <img src="images/logocat.png" alt="LGU Catanauan Logo">
             <div>
                 LGU Catanauan
             </div>
         </div>
 
+        <!-- Hamburger Toggle -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-toggle"></label>
 
         <!-- Navigation -->
-        <ul>
+        <ul class="menu">
 
             <li><a href="">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <ul>
-                <li><a href="">Vision, Mission, Goals</a></li>
-                <li><a href="">Municipal History</a></li>
-                <li><a href="">LGU Organizational Chart</a></li>
-                <li><a href="">Municipal Officials & Departments</a></li>
+            <li><a href="">About Us</a>
+                <ul>
+                    <li><a href="visionmission.html">Vision, Mission, Goals</a></li>
+                    <li><a href="municipalhistory.html">Municipal History</a></li>
+                    <li><a href="">LGU Organizational Chart</a></li>
+                    <li><a href="">Municipal Officials & Departments</a></li>
 
-            </ul>
-            <li><a href="">Services</a></li>
+                </ul>
+            </li>
+            <li><a href="">Services</a>
+                <ul>
+                    <li><a href="">Business Permits & Licensing</a></li>
+                    <li><a href="">Civil Registry</a></li>
+                    <li><a href="">Social Services</a></li>
+                    <li><a href="">Health Services</a></li>
+                    <li><a href="">Engineering Services</a></li>
+                    <li><a href="">Agricultural Services</a></li>
+                    <li><a href="">Tourism Services</a></li>
+                    <li><a href="">Other Services</a></li>
+                </ul>
+
+            </li>
             <li><a href="">Transparency</a></li>
             <li><a href="">Tourism</a></li>
             <li><a href="">News & Updates</a></li>
@@ -40,6 +56,41 @@
 
         </ul>
     </div>
+
+
+    <!-- BODY -->
+
+    <div class="section-1">
+        <div>
+            <div class="section-1-main-text">
+                The Catanauan Municipal Hall
+            </div>
+            <div class="section-1-secondary-text">
+                serves as the central government hub of the town,
+                providing public services, governance and
+                administrative functions for its residents.
+            </div>
+        </div>
+
+        <div class="card-main-image">
+            <img src="images/cityhall.jpg" alt="this is an image of city Hall">
+        </div>
+    </div>
+
+    <style>
+        .section-1 {
+            background: url('images/bghall.png') center/cover no-repeat;
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+        }
+    </style>
+
+
+
+
 </body>
 
 </html>
